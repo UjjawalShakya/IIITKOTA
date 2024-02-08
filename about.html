@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Institute Of Information Technology,Kota</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="iiitk_logo.png" alt="Error Loading Image"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">About Us</a></li>
+                    <li><a href="about.html">Food</a></li>
+                    <li><a href="course.html">life@iiitkota</a></li>
+                    <li><a href="blog.html">Placements</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Food</h1>
+    </section>
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>Central Canteen</h1>
+                <p>The central canteen of the institute "Annapurna" was inaugurated by the honorable Chairman of the Institute Professor K. K. Aggarwal in an earnest august presence of Director, Professor I. K. Bhat on December 22, 2014. Our canteen has a cordial and friendly atmosphere and the authorities see to it that the best possible nutritious and hygienic food services are being offered. There are varieties of dishes and other edible items to choose from, which is being provided and managed by city based NGO the "Akhshaya Patra Foundation". Considering the infancy of the canteen a number of infrastructural improvements in the existing facilities are being consistently addressed.</p>
+                <!-- <a href="" class="hero-btn red-btn">Explore Now</a> -->
+            </div>
+            <div class="about-col">
+                <img src="canteen2.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="footer">
+        <h3>Institute Of National Importance</h3>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+    </section>
+    <script>
+        var navLinks=document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right="0";
+        }
+        function hideMenu(){
+            navLinks.style.right="-200px";
+        }
+    </script>
+</body>
+</html>
